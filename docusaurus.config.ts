@@ -43,6 +43,7 @@ const config: Config = {
         //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
         // },
         blog: {
+          blogSidebarCount: 0,
           showReadingTime: true,
           feedOptions: {
             type: ["rss", "atom"],
@@ -70,14 +71,14 @@ const config: Config = {
     //     hideable: true,
     //   },
     // },
-    announcementBar: {
-      id: "support_us",
-      content:
-        'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
-      backgroundColor: "#fafbfc",
-      textColor: "#091E42",
-      isCloseable: false,
-    },
+    // announcementBar: {
+    //   id: "support_us",
+    //   content:
+    //     'We are looking to revamp our docs, please fill <a target="_blank" rel="noopener noreferrer" href="#">this survey</a>',
+    //   backgroundColor: "#fafbfc",
+    //   textColor: "#091E42",
+    //   isCloseable: false,
+    // },
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {

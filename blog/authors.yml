@@ -1,3 +1,12 @@
+rjvim:
+  name: Rajiv
+  title: Front End Engineer @ Facebook
+  url: https://github.com/yangshun
+  image_url: https://github.com/yangshun.png
+  page: true
+  socials:
+    x: yangshunz
+    github: yangshun
 yangshun:
   name: Rajiv Seelam
   title: Front End Engineer @ Facebook

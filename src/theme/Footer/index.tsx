@@ -17,7 +17,7 @@ export default function FooterWrapper(props: Props): JSX.Element {
   return (
     <>
       <div className="p-3 bg-red-400 dark:bg-yellow-400">
-        <Footer {...props} />
+        {/* <Footer {...props} /> */}
       </div>
     </>
   );
