@@ -33,13 +33,14 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
-        },
+        docs: false,
+        // docs: {
+        //   sidebarPath: "./sidebars.ts",
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl:
+        //     "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+        // },
         blog: {
           showReadingTime: true,
           feedOptions: {
@@ -63,11 +64,11 @@ const config: Config = {
   ],
 
   themeConfig: {
-    docs: {
-      sidebar: {
-        hideable: true,
-      },
-    },
+    // docs: {
+    //   sidebar: {
+    //     hideable: true,
+    //   },
+    // },
     announcementBar: {
       id: "support_us",
       content:
@@ -79,18 +80,18 @@ const config: Config = {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "Site Name",
+      title: "RJV.IM",
       logo: {
         alt: "My Site Logo",
         src: "img/logo.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Tutorial",
+        // },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/facebook/docusaurus",

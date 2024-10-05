@@ -37,8 +37,14 @@ export default function Home(): JSX.Element {
         title={`Hello from ${siteConfig.title}`}
         description="Description will go into a meta tag in <head />"
       >
+        {/* About Page: https://spotlight.tailwindui.com/about */}
+        {/* List of Blogs */}
+        {/* https://tailwindui.com/components/marketing/sections/blog-sections#component-71451303bfa569c95e0f084e67da54f2 */}
+        <div className="h-96 bg-blue-400 dark:bg-yellow-400"></div>
         {/* <HomepageHeader /> */}
-        <main>{/* <HomepageFeatures /> */}</main>
+        <main>
+          <HomepageFeatures />
+        </main>
       </Layout>
     </>
   );
