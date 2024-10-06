@@ -32,3 +32,11 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+body {
+  /* @apply flex h-full bg-zinc-200 dark:bg-black; */
+}
+
+#__docusaurus {
+  /* @apply flex h-full bg-white mx-auto w-full max-w-7xl lg:px-8; */
+}
